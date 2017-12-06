@@ -1,0 +1,7 @@
+@mixin base {
+
+}
+
+&__text {
+    @include base;
+}

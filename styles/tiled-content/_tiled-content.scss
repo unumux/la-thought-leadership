@@ -1,0 +1,18 @@
+@mixin base {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.tiled-content {
+    @include base;
+
+    @import 'content';
+    @import 'heading';
+    @import 'image-container';
+    @import 'image';
+    @import 'subheading';
+    @import 'text';
+}

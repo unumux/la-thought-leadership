@@ -1,0 +1,7 @@
+@mixin base {
+    font-weight: bold;
+}
+
+&__subheading {
+    @include base;
+}
