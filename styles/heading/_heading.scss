@@ -1,0 +1,11 @@
+@mixin base() {
+    background-color: #F2F5F7;
+}
+
+.heading {
+    @include base;
+
+    @import 'container';
+    @import 'text';
+    @import 'caption';
+}
