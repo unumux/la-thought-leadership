@@ -1,8 +1,7 @@
 .la-banner--header {
-    background-color: unset;
-    padding-bottom: space(1);
-    padding-top: space(1);
     background-color: #f2f5f7;
+    margin-bottom: 0;
+    padding-top: $space;
 
     .willow-banner__heading {
         color: #015294;
@@ -13,13 +12,14 @@
 .la-banner--hero {
     background-color: unset;
     background-image: url('../../../assets/banner-bg-image.jpg');
+    margin-bottom: 0;
 
     .willow-banner__heading {
         color: #fff;
         font-weight: 500;
     }
 
-    .willow-banner__content {
+    .willow-banner__content p {
         color: #fff;
         font-size: 24px;
     }

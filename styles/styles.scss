@@ -5,7 +5,10 @@
 @import 'overrides/overrides';
 
 @import 'heading/heading';
-@import 'tiled-content/tiled-content';
+@import 'la-tiled-content/la-tiled-content';
+@import 'la-signup/la-signup';
+@import 'la-form/la-form';
+@import 'la-testimony/la-testimony';
 
 * {
     box-sizing: border-box;

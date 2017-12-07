@@ -1,0 +1,15 @@
+@mixin base {
+    display: block;
+    margin: 0 auto;
+    max-height: 346px;
+    max-width: 346px;
+    
+    @media screen and (min-width: 992px) {
+        align-self: center;
+        margin-right: $space-xl;
+    }
+}
+
+&__image {
+    @include base;
+}

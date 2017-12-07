@@ -1,11 +1,14 @@
 @mixin base {
+    @include full-bleed;
 
+    background-color: #f2f5f7;
+    padding-bottom: $space-xxl;
 }
 
-.tiled-content {
+.la-tiled-content {
     @include base;
 
-    @import 'content';
+    @import 'item';
     @import 'heading';
     @import 'image-container';
     @import 'image';

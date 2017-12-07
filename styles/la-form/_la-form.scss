@@ -1,0 +1,9 @@
+@mixin base {
+
+}
+
+.la-form {
+    @include base;
+
+    @import 'button';
+}

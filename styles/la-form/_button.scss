@@ -1,0 +1,8 @@
+@mixin base {
+    color: #232323;
+    margin-top: $space-xl;
+}
+
+&__button {
+    @include base;
+}

@@ -1,0 +1,19 @@
+@mixin base {
+    @include full-bleed;
+
+    background-color: #fff;
+    padding-bottom: $space-xxl;
+    padding-top: $space-xxl;
+
+    @media screen and (min-width: 992px) {
+        display: flex;
+        
+    }
+}
+
+.la-testimony {
+    @include base;
+
+    @import 'image';
+    @import 'heading';
+}
