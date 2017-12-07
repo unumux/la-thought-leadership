@@ -1,9 +1,5 @@
 @mixin base {
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+
 }
 
 .tiled-content {

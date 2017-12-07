@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="9px" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard---Desktop" transform="translate(-745.000000, -2289.000000)" fill="#2E2E2E">
+            <g id="form-Section" transform="translate(0.000000, 1737.000000)">
+                <g id="btn" transform="translate(538.000000, 533.000000)">
+                    <g id="Group-5" transform="translate(34.000000, 14.000000)">
+                        <g id="Group-4">
+                            <path d="M173.452893,13.6978445 C172.990893,13.3958445 172.860893,12.7768445 173.162893,12.3138445 L175.045893,9.43084454 L173.162893,6.54784454 C172.860893,6.08484454 172.990893,5.46484454 173.452893,5.16284454 C173.915893,4.86084454 174.535893,4.99084454 174.836893,5.45384454 L177.434893,9.43084454 L174.836893,13.4078445 C174.644893,13.7018445 174.325893,13.8608445 173.998893,13.8608445 C173.811893,13.8608445 173.621893,13.8078445 173.452893,13.6978445 Z" id="btn-arrow"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

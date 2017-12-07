@@ -1,10 +1,26 @@
-.willow-banner {
+.la-banner--header {
     background-color: unset;
     padding-bottom: space(1);
     padding-top: space(1);
+    background-color: #f2f5f7;
 
-    &__heading {
+    .willow-banner__heading {
         color: #015294;
         font-weight: 500;
+    }
+}
+
+.la-banner--hero {
+    background-color: unset;
+    background-image: url('../../../assets/banner-bg-image.jpg');
+
+    .willow-banner__heading {
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .willow-banner__content {
+        color: #fff;
+        font-size: 24px;
     }
 }
