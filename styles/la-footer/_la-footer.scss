@@ -1,0 +1,17 @@
+@mixin base {
+    @include full-bleed;
+
+    background-color: #0B4781;
+    border-top: 14px solid #FAC832;
+    color: #fff;
+    padding-top: $space-xl;
+    padding-bottom: $space-xl;
+}
+
+.la-footer {
+    @include base;
+
+    @import 'branding';
+    @import 'image';
+    @import 'copyright';
+}

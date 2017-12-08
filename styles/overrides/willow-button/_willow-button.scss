@@ -1,7 +1,32 @@
 .la-button {
     color: #232323;
 
+    &:hover {
+        color: #232323;
+    }
+
+    &:active {
+        color: #232323;
+    }
+
     &__icon {
+        vertical-align: middle;
+    }
+}
+
+.la-form__button {
+    color: #232323;
+    margin-top: $space-xl;    
+
+    &:hover {
+        color: #232323;
+    }
+
+    &:active {
+        color: #232323;
+    }
+
+    &-icon {
         vertical-align: middle;
     }
 }
