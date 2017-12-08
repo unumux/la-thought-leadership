@@ -5,4 +5,8 @@
 
 &__button {
     @include base;
+
+    &:hover {
+        color: #232323;
+    }
 }

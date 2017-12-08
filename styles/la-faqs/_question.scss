@@ -1,0 +1,32 @@
+@mixin base {
+    color: #015294;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+}
+
+&__question {
+    @include base;
+
+    &::before {
+        background-image: url('../../assets/icon-minus.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        color: #fff;
+        content: "";
+        height: 3rem;
+        display: inline-block;
+        left: -4rem;
+        position: absolute;
+        text-align: center;
+        top: 8px;
+        width: 3rem;
+
+        .la-faqs__item[data-collapsed="true"] & {
+            content: "";
+            background-image: url('../../assets/icon-plus.svg');
+        }
+    }
+}

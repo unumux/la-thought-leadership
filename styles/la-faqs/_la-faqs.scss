@@ -1,0 +1,17 @@
+@mixin base {
+    @include full-bleed;
+
+    background-color: #F2F5F7;
+    padding-top: $space-xxl;
+    padding-bottom: $space-xxl;
+}
+
+.la-faqs {
+    @include base;
+
+    @import 'heading';
+    @import 'list';
+    @import 'item';
+    @import 'question';
+    @import 'answer';
+}

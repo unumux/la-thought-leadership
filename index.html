@@ -84,25 +84,25 @@
                     <form class="la-form">
                         <div class="row">
                             <div class="col-sm">
-                                <label class="la-form__label">Full name</label>
-                                <input class="la-form__input"/>
+                                <label class="la-form__label" for="fullname">Full name</label>
+                                <input class="la-form__input" id=fullname/>
                             </div>
                             <div class="col-sm">
-                                <label class="la-form__label">Company</label>
-                                <input class="la-form__input"/>
+                                <label class="la-form__label" for="company">Company</label>
+                                <input class="la-form__input" id="company"/>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm">
-                                <label class="la-form__label">Email address</label>
-                                <input class="la-form__input"/>
+                                <label class="la-form__label" for="email">Email address</label>
+                                <input class="la-form__input" id="email"/>
                             </div>
                             <div class="col-sm">
-                                <label class="la-form__label">Phone number</label>
-                                <input class="la-form__input"/>
+                                <label class="la-form__label" for="phone">Phone number</label>
+                                <input class="la-form__input" id="phone"/>
                             </div>
                         </div>
-                        <button class="willow-button la-form__button">Keep Me Updated</button>                        
+                        <button class="willow-button la-form__button">Keep Me Updated</button>                    
                     </form>
                 </section>
                 <section class="la-testimony">
@@ -114,7 +114,40 @@
                     </div>
                 </section>
                 <section class="la-faqs">
-                    
+                    <h1 class="la-faqs__heading">FAQs: What employers like you are asking about Leave & Absence Management</h1>
+                    <ul class="la-faqs__list">
+                        <li class="la-faqs__item">
+                            <p class="la-faqs__question">What obligations does an employer have when an employee requests leave?</p>
+                            <div class="la-faqs__answer">
+                                <p>An employer's primary responsibility when an employee requests leave is to provide the employee with two specific notices: one related to eligibility, the other regarding the employee's rights and responsibilities. These notices must be sent within five business days of the employee's request.</p>
+                                <p>THe eligibility notice informs the employee of their eligibility for FMLA leave and if they are not eligible, at least one specific reason why. This notice can be provided orally or in writing. The rights and resopnsibilities notice must be in writing and must detail the employe's rights under the FMLA and specific expectations and obligatioins of the employee including any consequences of failing to meet these obligations. Additionally, within five days of determining that the requested leave qualifies as FMLA leave, the employer must provide the employee with a designation notice that informs the employee how much of the leave time will be designated or counted as FMLA.</p>
+                            </div>
+                        </li>
+                        <li class="la-faqs__item">
+                            <p class="la-faqs__question">Can an employee work a second job while he is on leave under FMLA?</p>
+                            <div class="la-faqs__answer">
+                                <p>An employee can possibly work a second job while exercising his rights under FMLA. THe FMLA has no provision prohibiting an employee from working another job while on leave from his primary employer unless the employer has an established policy that would forbid employees from working secondary jobs. However, when there is no policy in place, an employee on an approved FMLA leave can have secondary employment because while the employee may be unable to perform the essential functions of one particular occupation, it does not necessarily mean that the employee is unable to perform the essential functions of another job.</p>
+                            </div>
+                        </li>
+                        <li class="la-faqs__item">
+                            <p class="la-faqs__question">Can an employer require paid leave to run at the same time as FMLA leave?</p>
+                            <div class="la-faqs__answer">
+                                <p>An employer can require an employee to substitute accrued paid leave for unpaid FMLA leave. This means the accrued paid leave provided by the employer runs concurrently with unpaid FMLA leave. It's important that employers establish this requirement in their policies if they want to require such substitution. If they do not, it becomes the employee's option whether to use accrued paid leave during otherwise unpaid FMLA. Employers should be aware that some state leave laws restrict the employer's ability to require substitution of paid leave.</p>
+                            </div>
+                        </li>
+                        <li class="la-faqs__item">
+                            <p class="la-faqs__question">If my employee cannot work scheduled overtime, is that time deducted from his/her FMLA entitlement?</p>
+                            <div class="la-faqs__answer">
+                                <p>It depends on whether the scheduled overtime hours have been factored into the employee's FMLA entitlement. The FMLA regulations specify that mandatory overtime (overtime an employee is required to work) must be factored into the employee's weekly entitlement and it then should be deducted from the entitlement if the employee is unable to work due to a serious health condition. For instance, if an employee normally works 40 hours and 5 mandatory overtime hours each week, his FMLA entitlement for that week should be 45 hours. Any overtime the employee cannot work is then deducted from that 45-hour bank. Conversely, voluntary overtime is not factored into the employee's entitlement but is also not deducted from the bank if an employee is unable to work it.</p>
+                            </div>
+                        </li>
+                        <li class="la-faqs__item">
+                            <p class="la-faqs__question">What obligation does an employer have to return an employee to work with reduced hours?</p>
+                            <div class="la-faqs__answer">
+                                <p>Under the FMLA, and employer must provide reduced schedule leave when medically necessary. Since the FMLA also makes it clear that an employer cannot require an employee to take more leave than is medically necessary, an employer is obligated to return an employee to work on a reduced schedule when there are no additional restrictions regarding the essential functions of the employee's job. The employer can work with the employee to schedule the reduced hours in a way that is least disruptive to the business operations. If the need for leave is for planned medical treatment, and employer does have the option of transferring the employee to an alternate position as long as it has equivalent pay and benefits.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </main>
@@ -131,7 +164,7 @@
 
 
     <!-- </div> -->
-
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
     <script src="scripts/site.min.js"></script>
 </body>
 </html>

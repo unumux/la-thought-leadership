@@ -1,0 +1,7 @@
+@mixin base {
+    margin-bottom: $space-l; 
+}
+
+&__answer {
+    @include base;
+}

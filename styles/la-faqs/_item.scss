@@ -1,0 +1,10 @@
+@mixin base {
+    border-bottom: 1px solid #d6d6d9;
+    margin-bottom: $space-l;
+    width: 100%;
+}
+
+&__item {
+    @include base;
+
+}
