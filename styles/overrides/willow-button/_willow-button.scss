@@ -16,7 +16,17 @@
 
 .la-form__button {
     color: #232323;
-    margin-top: $space-xl;    
+    margin-top: $space-xl;
+
+    @media screen and (min-width: 576px) {
+        max-width: 200px;
+        margin: 0 auto;
+        margin-top: $space-xl;
+    }
+
+    @media screen and (min-width: 828px) {
+        max-width: 235px;
+    }
 
     &:hover {
         color: #232323;

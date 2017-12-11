@@ -4,4 +4,6 @@
 
 .la-form {
     @include base;
+
+    @import 'button';
 }
