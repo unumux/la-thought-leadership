@@ -1,5 +1,6 @@
 @mixin base {
-
+    flex-grow: 1;
+    flex-basis: 60%;
 }
 
 &__content {
