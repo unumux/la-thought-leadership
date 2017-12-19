@@ -1,6 +1,10 @@
 .la-button {
     color: #232323;
 
+    &__icon {
+        margin-bottom: 2px;
+    }
+
     &:hover {
         color: #232323;
     }
@@ -20,6 +24,10 @@
     background-image: url("../../assets/btn-arrow.svg");
     background-repeat: no-repeat;
     background-position: 75% center;
+
+    &-icon {
+        margin-bottom: 2px;
+    }
 
     @media screen and (min-width: 576px) {
         max-width: 200px;

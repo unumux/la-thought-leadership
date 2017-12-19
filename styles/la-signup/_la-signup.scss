@@ -1,6 +1,10 @@
 @mixin base {
     @include full-bleed;
     
+<<<<<<< HEAD
+=======
+    // padding-top: $space-xxl;
+>>>>>>> creates gh-pages branch and commits
     padding-bottom: $space-xxl;
     background-color: #F2F5F7;
 
