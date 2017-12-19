@@ -10,7 +10,7 @@
     @include base;
 
     &::before {
-        background-image: url('../../assets/icon-minus.svg');
+        background-image: url('http://unumux.github.io/la-thought-leadership/assets/icon-minus.svg');
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 50%;
@@ -26,7 +26,7 @@
 
         .la-faqs__item[data-collapsed="true"] & {
             content: "";
-            background-image: url('../../assets/icon-plus.svg');
+            background-image: url('http://unumux.github.io/la-thought-leadership/assets/icon-plus.svg');
         }
     }
 }
