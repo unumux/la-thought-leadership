@@ -17,11 +17,15 @@
 .la-form__button {
     color: #232323;
     margin-top: $space-xl;
+    background-image: url("../../assets/btn-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 75% center;
 
     @media screen and (min-width: 576px) {
         max-width: 200px;
         margin: 0 auto;
         margin-top: $space-xl;
+        background-position: 95% center;
     }
 
     @media screen and (min-width: 828px) {

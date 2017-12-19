@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700" rel="stylesheet">  
     <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 <body>
@@ -63,28 +63,46 @@
             <section class="la-signup">
                 <h1 class="la-signup__heading">Manage your leave and absence with ease</h1>
                 <p class="la-signup__text">Stay on top of the laws and regulations that threaten to bog you and your company down. No time? Our experts have you covered.</p>
-                <form class="la-form">
+                <form method="post" action="http://www.enrollunum.com/leave-absence/Leave-and-absence-form" pageId="8159276" siteId="237148" parentPageId="8159274">
                     <div class="row">
                         <div class="col-sm">
-                            <label class="la-form__label" for="fullname">Full name</label>
-                            <input class="la-form__input" id=fullname/>
+                            <div id="container_COLUMN7">
+                                <div class="fieldLabel la-form__label">Full Name</div>
+                            </div>
+                            <input type="text" name="Full Name" id="control_COLUMN7" label="Full Name" class="textInput defaultText">
                         </div>
                         <div class="col-sm">
-                            <label class="la-form__label" for="company">Company</label>
-                            <input class="la-form__input" id="company"/>
+                            <div id="container_COLUMN8">
+                                <div class="fieldLabel la-form__label">Company</div>
+                            </div>
+                            <input type="text" name="Company" id="control_COLUMN8" label="Company" class="textInput defaultText">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <label class="la-form__label" for="email">Email address</label>
-                            <input class="la-form__input" id="email"/>
+                            <div id="container_EMAIL">
+                                <div class="fieldLabel  la-form__label">Email<span class="required">*</span></div>
+                            </div>
+                            <input type="text" name="Email" id="control_EMAIL" label="Email" class="textInput defaultText">
                         </div>
                         <div class="col-sm">
-                            <label class="la-form__label" for="phone">Phone number</label>
-                            <input class="la-form__input" id="phone"/>
+                            <div id="container_COLUMN9">
+                                <div class="fieldLabel  la-form__label">Phone</div>
+                            </div>
+                            <input type="text" name="Phone" id="control_COLUMN9" label="Phone" class="textInput defaultText">
                         </div>
                     </div>
-                    <button class="willow-button la-form__button">Keep Me Updated <img class="la-form__button-icon" src="assets/btn-arrow.svg" alt=""/></button>     
+                    <div>
+                        <input type="submit" class="defaultText buttonStyle willow-button la-form__button" value="Keep me updated">
+                    </div>
+                    <input type="hidden" name="SPRID" id="control_COLUMN6">
+                    <input type="hidden" name="utm_campaign" id="control_COLUMN1">
+                    <input type="hidden" name="utm_content" id="control_COLUMN4">
+                    <input type="hidden" name="utm_medium" id="control_COLUMN3">
+                    <input type="hidden" name="utm_source" id="control_COLUMN2">
+                    <input type="hidden" name="utm_term" id="control_COLUMN5">
+                    <input type="hidden" name="formSourceName" value="StandardForm"><!-- DO NOT REMOVE HIDDEN FIELD sp_exp -->
+                    <input type="hidden" name="sp_exp" value="yes">
                 </form>
             </section>
             <section class="la-testimony">

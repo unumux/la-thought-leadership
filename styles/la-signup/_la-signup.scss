@@ -1,9 +1,12 @@
 @mixin base {
     @include full-bleed;
     
-    padding-top: $space-xxl;
     padding-bottom: $space-xxl;
     background-color: #F2F5F7;
+
+    @media screen and (min-width: 768px) {
+        padding-top: $space-xxl;
+    }
 }
 
 .la-signup {
