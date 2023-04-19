@@ -37,6 +37,10 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@unumux/stylelint-config-unumux/-/stylelint-config-unumux-1.0.1.tgz#34a724c5fdf19482af5d54fc22f5162a972c3378"
 
+"@unumux/theme-unum-default@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@unumux/theme-unum-default/-/theme-unum-default-0.5.0.tgz#18602cf691519c0fb287081901d6e633a2e1b707"
+
 "@unumux/ux-build-tools@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@unumux/ux-build-tools/-/ux-build-tools-3.7.0.tgz#1b2b8d22ac87b9578b78b80d51fe330799226a87"
@@ -84,6 +88,13 @@
     vinyl-buffer "^1.0.0"
     vinyl-source-stream "^1.1.0"
     watchify "^3.2.1"
+
+"@unumux/willow@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@unumux/willow/-/willow-0.3.0.tgz#021c0b96c47801127ad4f85b95e4733e2082a7fc"
+  dependencies:
+    bootstrap "4.0.0-beta"
+    normalize.css "^4.0.0"
 
 JSONStream@^0.8.4:
   version "0.8.4"
@@ -1058,6 +1069,10 @@ boom@5.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
     hoek "4.x.x"
+
+bootstrap@4.0.0-beta:
+  version "4.0.0-beta"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.tgz#dc5928175d2e71310bc668cf9e05a907211b72a6"
 
 bower-config@~0.5.0, bower-config@~0.5.2:
   version "0.5.3"
@@ -4198,9 +4213,9 @@ json-schema-traverse@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz#349a6d44c53a51de89b40805c5d5e59b417d3340"
 
-json-schema@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
+json-schema@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.4.0.tgz#f7de4cf6efab838ebaeb3236474cbba5a1930ab5"
 
 json-stable-stringify@^1.0.0, json-stable-stringify@^1.0.1:
   version "1.0.1"
@@ -4258,12 +4273,12 @@ jsonpointer@^4.0.0:
   resolved "https://registry.yarnpkg.com/jsonpointer/-/jsonpointer-4.0.1.tgz#4fd92cb34e0e9db3c89c8622ecf51f9b978c6cb9"
 
 jsprim@^1.2.2:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/jsprim/-/jsprim-1.4.2.tgz#712c65533a15c878ba59e9ed5f0e26d5b77c5feb"
   dependencies:
     assert-plus "1.0.0"
     extsprintf "1.3.0"
-    json-schema "0.2.3"
+    json-schema "0.4.0"
     verror "1.10.0"
 
 jsx-ast-utils@^1.2.1:
@@ -5385,6 +5400,10 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+normalize.css@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-4.2.0.tgz#21d66cc557154d4379fd1e079ec7de58a379b099"
 
 npmconf@^2.0.1:
   version "2.1.2"
