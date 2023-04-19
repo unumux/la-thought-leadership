@@ -37,6 +37,10 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@unumux/stylelint-config-unumux/-/stylelint-config-unumux-1.0.1.tgz#34a724c5fdf19482af5d54fc22f5162a972c3378"
 
+"@unumux/theme-unum-default@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@unumux/theme-unum-default/-/theme-unum-default-0.5.0.tgz#18602cf691519c0fb287081901d6e633a2e1b707"
+
 "@unumux/ux-build-tools@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@unumux/ux-build-tools/-/ux-build-tools-3.7.0.tgz#1b2b8d22ac87b9578b78b80d51fe330799226a87"
@@ -84,6 +88,13 @@
     vinyl-buffer "^1.0.0"
     vinyl-source-stream "^1.1.0"
     watchify "^3.2.1"
+
+"@unumux/willow@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@unumux/willow/-/willow-0.3.0.tgz#021c0b96c47801127ad4f85b95e4733e2082a7fc"
+  dependencies:
+    bootstrap "4.0.0-beta"
+    normalize.css "^4.0.0"
 
 JSONStream@^0.8.4:
   version "0.8.4"
@@ -1058,6 +1069,10 @@ boom@5.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
     hoek "4.x.x"
+
+bootstrap@4.0.0-beta:
+  version "4.0.0-beta"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.tgz#dc5928175d2e71310bc668cf9e05a907211b72a6"
 
 bower-config@~0.5.0, bower-config@~0.5.2:
   version "0.5.3"
@@ -5385,6 +5400,10 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+normalize.css@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-4.2.0.tgz#21d66cc557154d4379fd1e079ec7de58a379b099"
 
 npmconf@^2.0.1:
   version "2.1.2"
